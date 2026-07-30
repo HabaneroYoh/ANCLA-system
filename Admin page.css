@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    background-color: black;
+    height: 80px;
+    display: flex;
+}
+
+p{
+    color: white;
+}
+
+header{
+    height: 550px;
+    width: 1912px;
+    background-color: black;
+    background-image: url("gym.jpg");
+}
+
+.header_logo{
+    height: 500px;
+    width: 1895px;
+    justify-content: center;
+    display: flex;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+}
+
+.label{
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: x-large;
+}
+
+section{
+    display: flex;
+}
+.membership{
+    background-color: white;
+    height: 500px;
+    width: 637px;
+    border: 1px solid red;
+}
+
+.active_members{
+    background-color: white;
+    height: 500px;
+    width: 637px;
+    border: 1px solid red;
+}
+
+.expiring_members{
+    height: 500px;
+    width: 637px;
+    border: 1px solid red;
+    background-color: white;
+}
+
+.check_ins{
+    height: 500px;
+    width: 956px;
+    background-color: white;
+    border: 1px solid red;
+}
+
+.revenue{
+    height: 500px;
+    width: 956px;
+    background-color: white;
+    border: 1px solid red;
+}
+
+.transactions{
+    height: 500px;
+    width: 1912px;
+    justify-content: center;
+    display: flex;
+    border: 1px solid red;
+    background-color: white;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    height: 300px;
+    width: auto;
+}
