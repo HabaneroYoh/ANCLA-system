@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    background-color: black;
+    height: 80px;
+    display: flex;
+}
+
+p{
+    color: white;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+}
+
+.label{
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: x-large;
+}

@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    width: 100%;
+}
+
+
+header{
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    background-image: url("../img/gym.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header_logo{
+    height: 500px;
+    width: 1895px;
+    justify-content: center;
+    display: flex;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+}
+
+.label{
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: x-large;
+    color: white;
+}
+
+
+.revenue{
+    display: flex;
+    justify-content: center;
+}
+
+.revenue2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.revenue_label{
+    margin-left: 46.5%;
+}
+
+.first_container{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.today{
+    height: 100px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.monthly{
+    height: 100px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.annual{
+    height: 100px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.second_container{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.total{
+    height: 100px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.daily{
+    height: 100px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.active{
+    height: 100px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.chart_label{
+    margin-left: 44%;
+}
+
+.chart_container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.chart{
+    width: 1500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.payment{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.revenue_member{
+    width: 700px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.payment_method{
+    width: 700px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.payment h1{
+    display: flex;
+    justify-content: center;
+}
+
+.payment li{
+    color: black;
+    font-size: x-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 400px;
+    width: auto;
+    display: flex;
+    background-color: black;
+}
+
+.contact{
+    height: 300px;
+    width: 200px;
+    margin-left: 200px;
+}
+
+.promo{
+    height: 300px;
+    width: 500px;
+    margin-left: 200px;
+}
+
+.information{
+    height: 300px;
+    width: 500px;
+}
+
+.footer_h1{
+    color: white;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+}

@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
+    background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -10,6 +10,7 @@ nav{
     background-color: black;
     height: 80px;
     display: flex;
+    width: 100%;
 }
 
 p{
@@ -17,22 +18,57 @@ p{
 }
 
 button{
-    height: 70px;
-    width: 200px;
-    background-color: black;
-    display: block;
-    margin: 0 auto;
+    height: 50px;
+    width: 100px;
     color: white;
     border: 1px;
     border-radius: 30px;
-    font-size: larger;
+    margin-top: 10px;
+    margin-left: 1800px;
+}
+
+.add_btn{
+    background-color: green;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+    color: black;
+}
+
+
+.table_container{
+    height: 1000px;
+}
+
+th{
+    background-color:#1f2937;
+    color:white;
+    padding:15px;
+    border-bottom: 1px solid #1f2937;
+}
+
+td{
+    padding:15px;
+    border-bottom:1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+
+input{
+    height: 25px;
+    
+}
+
+tr:hover{
+    background-color:#f5f5f5;
 }
 
 header{
     height: 550px;
-    width: 1897px;
+    width: 100%;
     background-color: black;
-    background-image: url("img/gym.jpg");
+    background-image: url("../img/gym.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -55,54 +91,12 @@ header{
     font-size: x-large;
 }
 
-section{
-    display: flex;
-}
-.membership{
-    background-color: white;
-    height: 500px;
-    width: 637px;
-}
-
-.active_members{
-    background-color: white;
-    height: 500px;
-    width: 637px;
-}
-
-.expiring_members{
-    height: 500px;
-    width: 637px;
-    background-color: white;
-}
-
-.check_ins{
-    height: 500px;
-    width: 956px;
-    background-color: white;
-}
-
-.revenue{
-    height: 500px;
-    width: 956px;
-    background-color: white;
-}
-
-.transactions{
-    height: 500px;
-    width: 1912px;
-    background-color: white;
-}
-
-section h1{
-    justify-content: center;
-    display: flex;
-}
 
 footer{
     height: 400px;
     width: auto;
     display: flex;
+    background-color: black;
 }
 
 .contact{

@@ -53,7 +53,7 @@ p{
 header{
     height: 550px;
     width: auto;
-    background-image: url("gym.jpg");
+    background-image: url("img/gym.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -65,133 +65,6 @@ header{
     width: cpx;
     justify-content: center;
     display: flex;
-}
-
-.tracker{
-    height: 500px;
-    width: 956px;
-    background-color: white;
-    display: flex;
-}
-
-.tracker2{
-    height: 500px;
-    width: 956px;
-    display: flex;
-    background-color: white;
-}
-
-.icon_container{
-    height: 130px;
-    width: 1895px;
-    background-color: black;
-    display: flex;
-}
-
-.icon_container2{
-    height: 150px;
-    width: 1895px;
-    background-color: black;
-    display: flex;
-}
-
-.tracker_icon{
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    margin-right: 50px;
-    margin-left: 820px;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-.subscription_icon{
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    margin-top: 20px;
-    border-radius: 10px;
-    margin-left: 870px;
-}
-
-.profile_icon{
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    margin-right: 50px;
-    margin-left: 820px;
-    margin-top: 20px;
-    border-radius: 10px; 
-    background-image: url("profile icon.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-    
-.profile_icon:hover{
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    transition: 0.5s;
-    background-image: url("profile icon2.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-a{
-    height: 100px;
-    width: 100px;
-}
-
-.feedback_icon{
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    margin-top: 20px;
-    border-radius: 10px;
-    margin-left: 870px;
-}
-
-.tracker_img{
-    height: 500px;
-    width: 948px;
-}
-
-.subscription{
-    height: 500px;
-    width: 956px;
-    background-color: white;
-}
-
-.subscription2{
-    height: 500px;
-    width: 956px;
-    background-color: white;
-}
-
-.user_profile{
-    height: 500px;
-    width: 956px;
-    background-color: white;
-}
-
-.user_profile2{
-    height: 500px;
-    width: 956px;
-    background-color: white;
-}
-
-.feedback{
-    height: 500px;
-    width: 956px;
-    background-color: white;
-}
-
-.feedback2{
-    height: 500px;
-    width: 956px;
-    background-color: white;
 }
 
 
@@ -229,3 +102,9 @@ li{
     margin-top: 10px;
     color: white;
 }
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
