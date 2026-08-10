@@ -61,22 +61,10 @@ section{
 .membership{
     background-color: white;
     height: 500px;
-    width: 637px;
+    width: 956px;
 }
 
-.active_members{
-    background-color: white;
-    height: 500px;
-    width: 637px;
-}
-
-.expiring_members{
-    height: 500px;
-    width: 637px;
-    background-color: white;
-}
-
-.check_ins{
+.trainer{
     height: 500px;
     width: 956px;
     background-color: white;
@@ -90,7 +78,7 @@ section{
 
 .transactions{
     height: 500px;
-    width: 1912px;
+    width: 956px;
     background-color: white;
 }
 
