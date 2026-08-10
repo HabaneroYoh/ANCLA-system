@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section{
+    display: flex;
+}
+
+nav{
+    background-color: black;
+    height: 80px;
+    display: flex;
+}
+
+p{
+    color: white;
+}
+
+.label{
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: x-large;
+    margin-right: 15px;
+}
+
+#promo_label{
+    margin-left: 1130px;
+}
+
+.menu-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 19px;
+    margin-left: 19px;
+}
+
+.menu-btn span {
+    display: block;
+    height: 3px;
+    width: 25px;
+    background: white;
+    margin: 5px auto;
+}
+
+header{
+    height: 550px;
+    width: auto;
+    background-image: url("img/gym.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.header_logo{
+    height: 500px;
+    width: cpx;
+    justify-content: center;
+    display: flex;
+}
+
+
+footer{
+    height: 400px;
+    width: auto;
+    display: flex;
+}
+
+.contact{
+    height: 300px;
+    width: 200px;
+    margin-left: 200px;
+}
+
+.promo{
+    height: 300px;
+    width: 500px;
+    margin-left: 200px;
+}
+
+.information{
+    height: 300px;
+    width: 500px;
+}
+
+.footer_h1{
+    color: white;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
